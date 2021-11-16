@@ -13,7 +13,7 @@ public class EmailStarter {
 		emailDAO.save(emailDTO);
 		OutLookEmailDTO outLookEmailDTO=new OutLookEmailDTO(600,true,90,"sahana@gmail.com",790,true); 
 		emailDAO.save(outLookEmailDTO);
-		GmailEmailDTO gmailEmailDTO=new GmailEmailDTO(400,false,50,"lav32@gmail.com","Red",true);
+		GmailEmailDTO gmailEmailDTO=new GmailEmailDTO(400,false,50,"lav32h@gmail.com","Red",true);
 		emailDAO.save(gmailEmailDTO);
 		emailDAO.displayDetailsEmailDTO();
 		emailDAO.displayDetailsOutLookEmailDTO();
